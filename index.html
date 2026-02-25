@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sono:wght,MONO@200..800,1&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="https://kit.fontawesome.com/c2a7e21e81.js" crossorigin="anonymous"></script>
+    <title>VinylShop</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/" class="header__logo-link"
+            ><img src="./img/logo.webp" alt="logo" class="header__logo-img"
+          /></a>
+          <h1 class="header__name">VinylShelf</h1>
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#intro" class="header__link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#genres" class="header__link">Genres</a>
+            </li>
+            <li class="header__item">
+              <a href="#products" class="header__link">Trending</a>
+            </li>
+            <li class="header__item">
+              <a href="#authors" class="header__link">Artists</a>
+            </li>
+            <li class="header__item">
+              <a href="#join" class="header__link">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- intro section -->
+      <section id="intro">
+        <div class="intro__title-container">
+          <h1 class="intro__title">Music Sounds Better on Vinyl</h1>
+
+          <p class="intro__subtitle">
+            Step into VinylShelf, where every record tells a story. From legendary classics to
+            hidden gems, our collection is designed for listeners who appreciate music beyond the
+            digital stream. Each vinyl is selected for its sound, artwork, and the nostalgia it
+            evokes, allowing you to experience music the way it was meant to be heard. Discover,
+            play, and let the warm crackle of vinyl transform your listening experience.
+          </p>
+
+          <form action="" class="intro__form">
+            <a href="#join" id="intro__button">Sign up</a>
+          </form>
+        </div>
+      </section>
+
+      <!-- genres? section-->
+      <section id="genres">
+        <div class="genres__container">
+          <div class="genres__header">
+            <h2 class="genres__title">What genre do you prefer?</h2>
+            <div class="genres__nav">
+              <div class="genres__btn">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="genres__btn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="genres__cards-container">
+            <div class="genres__cards">
+              <a href="#" class="genres__card">Rock</a>
+
+              <a href="#" class="genres__card">Pop</a>
+
+              <a href="#" class="genres__card">Jazz</a>
+
+              <a href="#" class="genres__card">Classical</a>
+
+              <a href="#" class="genres__card">Indie</a>
+
+              <a href="#" class="genres__card">Alternative Rock</a>
+
+              <a href="#" class="genres__card">Disco</a>
+
+              <a href="#" class="genres__card">Experimental</a>
+
+              <a href="#" class="genres__card">Punk</a>
+
+              <a href="#" class="genres__card">Grunge</a>
+
+              <a href="#" class="genres__card">R&B</a>
+
+              <a href="#" class="genres__card">Rap</a>
+
+              <a href="#" class="genres__card">Hip-Hop</a>
+
+              <a href="#" class="genres__card">Country</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products section -->
+      <section id="products">
+        <h2 class="products__section-title">Trending albums</h2>
+        <div class="products__container">
+          <div class="products__wrapper">
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/bowie.png" alt="David Bowie" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">"Heroes"</div>
+                <div class="products__desc">David Bowie</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/beatles.jpg" alt="The Beatles" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">Abbey Road</div>
+                <div class="products__desc">The Beatles</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/abba.jpg" alt="ABBA" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">Voulez-Vous</div>
+                <div class="products__desc">ABBA</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/blur.jpg" alt="Blur" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">Live at Wembley Stadium</div>
+                <div class="products__desc">Blur</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/depeche_mode.jpg" alt="" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">The Singles 86-98</div>
+                <div class="products__desc">Depeche Mode</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+
+            <div class="products__block">
+              <div class="products__img-wrapper">
+                <img src="./img/gorillaz.jpg" alt="Gorillaz" class="products__img" />
+              </div>
+
+              <div class="products__text">
+                <div class="products__title">Demon Days</div>
+                <div class="products__desc">Gorillaz</div>
+              </div>
+              <button class="products__button">Details</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- authors -->
+      <section id="authors">
+        <div class="authors__container">
+          <h2 class="authors__title">Artists to explore</h2>
+          <div class="authors__cards">
+            <div class="authors__card">
+              <img src="./img/bowie_photo.webp" alt="David Bowie" class="authors__img" />
+              <div class="authors__card-text">
+                <div class="authors__card-title">David Bowie</div>
+                <div class="authors__card-desc">
+                  One of the greatest stars of the rock & roll era, David Bowie evaded easy
+                  categorization throughout his career, operating as the artiest rocker within the
+                  mainstream and the most accessible musician on the fringe.
+                </div>
+              </div>
+            </div>
+
+            <div class="authors__card">
+              <img src="./img/tlsp.avif" alt="The Last Shadow Puppets" class="authors__img" />
+              <div class="authors__card-text">
+                <div class="authors__card-title">The Last Shadow Puppets</div>
+                <div class="authors__card-desc">
+                  An English supergroup consisting of Alex Turner (Arctic Monkeys), Miles Kane (the
+                  Little Flames, the Rascals), James Ford (Simian, Simian Mobile Disco), and Zach
+                  Dawes (Mini Mansions).
+                </div>
+              </div>
+            </div>
+
+            <div class="authors__card">
+              <img src="./img/lorde.jfif" alt="Lorde" class="authors__img" />
+              <div class="authors__card-text">
+                <div class="authors__card-title">Lorde</div>
+                <div class="authors__card-desc">
+                  A critically acclaimed New Zealand singer-songwriter known for her unique
+                  contralto voice, indie-pop style, and introspective songwriting.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- join -->
+      <section id="join">
+        <div class="join__container">
+          <h2 class="join__title">Join us for better experience</h2>
+          <div class="forms__container">
+            <div class="signup">
+              <form class="form" id="signup-form">
+                <div class="signup__title">Sign up to the VinylShop newsletter</div>
+
+                <div class="signup__block">
+                  <div class="signup__input-container">
+                    <div id="name">
+                      <input
+                        type="text"
+                        name="name"
+                        class="signup__input"
+                        placeholder="First name"
+                      />
+                      <span class="error" id="nameError"></span>
+                    </div>
+
+                    <div id="last-name">
+                      <input
+                        type="text"
+                        name="last-name"
+                        class="signup__input"
+                        placeholder="Last name"
+                      />
+                      <span class="error" id="lastNameError"></span>
+                    </div>
+
+                    <div id="signup-email">
+                      <input
+                        type="text"
+                        name="signupEmail"
+                        class="signup__input"
+                        placeholder="Email"
+                      />
+                      <span class="error" id="signupEmailError"></span>
+                    </div>
+                  </div>
+                </div>
+                <button id="signupButton" class="button" type="submit" form="signup-form">
+                  Sign up
+                </button>
+                <p id="signup-agree">
+                  By signing up, I confirm that I agree with the website's Privacy Policy
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- modal -->
+    <div class="modal modal__hide">
+      <div class="modal__wrapper">
+        <h2 class="modal__title">Thanks for subscribing to our newsletter!</h2>
+        <p class="modal__text">We will be sending latest updates from our shop</p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__lists">
+          <ul class="footer__list">
+            <li class="footer__heading">Product</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Features</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Pricing</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Integrations</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Products</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__heading">Company</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">About us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Privacy policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms & conditions</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__heading">Users</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Signin</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Talk to us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__bottom">
+          <p class="footer__item">©2026 VinylShelf All rights reserved.</p>
+          <p class="footer__item">
+            <a href="#" class="footer__link">Follow us on social</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
